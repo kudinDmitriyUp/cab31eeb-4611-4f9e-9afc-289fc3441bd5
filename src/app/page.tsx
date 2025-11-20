@@ -7,7 +7,6 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
-import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
@@ -115,21 +114,6 @@ export default function LandingPage() {
           gridVariant="four-items-2x2-equal-grid"
           textboxLayout="default"
           animationType="opacity"
-        />
-      </div>
-
-      <div id="pricing" data-section="pricing">
-        <PricingCardOne
-          title="Paquetes Especiales"
-          description="Ofertas exclusivas para una experiencia completa"
-          tag="Ofertas"
-          plans={[
-            {"id":"romantic","badge":"Más Romántico","badgeIcon":Heart,"price":"€850","subtitle":"Escapada romántica de 2 noches","features":["Suite con vistas panorámicas","Cena romántica para dos","Spa para parejas","Champán de bienvenida","Desayuno en la habitación"]},
-            {"id":"gourmet","badge":"Más Popular","badgeIcon":Sparkles,"price":"€650","subtitle":"Experiencia gastronómica completa","features":["Habitación Deluxe 2 noches","Menú degustación premium","Cata de vinos españoles","Acceso al spa","Transfer gratuito"]},
-            {"id":"business","badge":"Ejecutivo","badgeIcon":Briefcase,"price":"€450","subtitle":"Perfecto para viajes de negocio","features":["Habitación ejecutiva","Desayuno buffet premium","Wifi alta velocidad","Sala de reuniones","Late check-out gratuito"]}
-          ]}
-          textboxLayout="default"
-          animationType="blur-reveal"
         />
       </div>
 
